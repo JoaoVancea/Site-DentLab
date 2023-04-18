@@ -1,0 +1,41 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#logo__image {
+    width: 72px;
+    height: auto;
+}
+li {
+    display: inline-block;
+    list-style: none;
+    font-family: var(--texto);
+}
+.logo {
+    display: flex;
+    align-items: center; 
+}
+a {
+    text-decoration: none;
+    margin: 24px;
+    color: black; 
+}
+span {
+    color: var(--texto-logo-cor);
+}
+.titulo__logo {
+    font-family: var(--texto-logo-fonte);
+    font-size: 40px;
+}
+.login {
+    background-color: var(--cor-botao);
+    padding: 16px;
+    border-radius: 8px;
+    color: var(--cor-branco);
+}
+@media only screen and (max-width: 970px) {
+    .menu {
+        display: none;
+    }
+}

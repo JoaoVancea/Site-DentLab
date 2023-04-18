@@ -1,0 +1,7 @@
+body {
+    overflow-x: hidden;
+}
+.img__card {
+    width: 72px;
+    height: 72px;
+}

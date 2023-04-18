@@ -1,0 +1,35 @@
+.titulo__principal {
+    font-family: var(--texto);
+    font-weight: 900;
+    font-size: 40px;
+}
+.sub__titulo {
+    font-family: var(--texto);
+    font-weight: 600;
+    font-size: 24px;
+}
+.texto {
+    font-family: var(--texto);
+    font-weight: 400;
+    font-size: 18px;
+}
+.card {
+    width: 300px;
+    height: 200px;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+    gap: 8px;
+    text-align: center;
+    background-color: var(--cor-branco);
+    box-shadow:
+        1.4px 1.4px 2.2px rgba(0, 0, 0, 0.069),
+        3.3px 3.3px 5.3px rgba(0, 0, 0, 0.093),
+        6.3px 6.3px 10px rgba(0, 0, 0, 0.11),
+        11.2px 11.2px 17.9px rgba(0, 0, 0, 0.128),
+        20.9px 20.9px 33.4px rgba(0, 0, 0, 0.156),
+        50px 50px 80px rgba(0, 0, 0, 0.23);
+}
