@@ -5,3 +5,19 @@ body {
     width: 72px;
     height: 72px;
 }
+.div__cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 48px;
+    gap: 20px;
+}
+main h1, h6 {
+    text-align: center;
+}
+main {
+    margin-top: 64px;
+}
+main h6 {
+    margin-top: 40px;
+}

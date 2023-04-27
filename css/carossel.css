@@ -1,0 +1,19 @@
+.carousel-cell {
+  width: 36%;
+  height: 300px;
+  margin-right: 10px;
+  border-radius: 15px;
+  counter-increment: gallery-cell;
+  background-color: rgba(239, 248, 254, 1);
+}
+.img__carrossel {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+}
+.carousel__card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}

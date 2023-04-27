@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DentLab</title>
     <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
     <link rel="stylesheet" href="css/variaveis.css">
     <link rel="stylesheet" href="css/utils.css">
     <link rel="stylesheet" href="css/main.css">
@@ -13,6 +14,8 @@
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/vantagens.css">
     <link rel="stylesheet" href="css/mensagem.css">
+    <link rel="stylesheet" href="css/profissionais.css">
+    <link rel="stylesheet" href="css/carossel.css">
 </head>
 <body>
     <header>
@@ -69,28 +72,81 @@
         </hgroup>
     </section>
     <main>
-        <h1>Conheça nossos serviços principais</h1>
-        <h6>Oferecemos uma ampla gama de serviços para cuidar da sua saúde bucal. Os principais serviços incluem:</h6>
-        <div class="card">
-            <img class="img__card" src="assets/clareamento.svg" alt="clareamento">
-            <h1 class="sub__titulo">Clareamento</h1>
-            <p class="texto">Melhoria da aparência dos dentes e do sorriso, através de clareamento, facetas, restaurações estéticas e outros procedimentos.</p>
-        </div>
-        <div class="card">
-            <img class="img__card" src="assets/consulta.svg" alt="consulta">
-            <h1 class="sub__titulo">Consulta</h1>
-            <p class="texto">Avaliação geral da saúde bucal, histórico médico, detecção de problemas e planejamento do tratamento adequado.</p>
-        </div>
-        <div class="card">
-            <img class="img__card" src="assets/extracao.svg" alt="extração">
-            <h1 class="sub__titulo">Extração</h1>
-            <p class="texto">Remoção de dentes danificados, impactados ou que não podem ser salvos por outros tratamentos.</p>
-        </div>
-        <div class="card">
-            <img class="img__card" src="assets/aparelho.svg" alt="aparelho">
-            <h1 class="sub__titulo">Aparelho</h1>
-            <p class="texto">Correção de problemas de oclusão e alinhamento dos dentes, utilizando aparelhos ortodônticos fixos ou removíveis. </p>
+        <h1 class="sub__titulo">Conheça nossos serviços principais</h1>
+        <h6 class="texto">Oferecemos uma ampla gama de serviços para cuidar da sua saúde bucal. Os principais serviços incluem:</h6>
+        <div class="div__cards">
+            <div class="card">
+                <img class="img__card" src="assets/clareamento.svg" alt="clareamento">
+                <h1 class="sub__titulo">Clareamento</h1>
+                <p class="texto">Melhoria da aparência dos dentes e do sorriso, através de clareamento, facetas, restaurações estéticas e outros procedimentos.</p>
+            </div>
+            <div class="card">
+                <img class="img__card" src="assets/consulta.svg" alt="consulta">
+                <h1 class="sub__titulo">Consulta</h1>
+                <p class="texto">Avaliação geral da saúde bucal, histórico médico, detecção de problemas e planejamento do tratamento adequado.</p>
+            </div>
+            <div class="card">
+                <img class="img__card" src="assets/extracao.svg" alt="extração">
+                <h1 class="sub__titulo">Extração</h1>
+                <p class="texto">Remoção de dentes danificados, impactados ou que não podem ser salvos por outros tratamentos.</p>
+            </div>
+            <div class="card">
+                <img class="img__card" src="assets/aparelho.svg" alt="aparelho">
+                <h1 class="sub__titulo">Aparelho</h1>
+                <p class="texto">Correção de problemas de oclusão e alinhamento dos dentes, utilizando aparelhos ortodônticos fixos ou removíveis. </p>
+            </div>
         </div>
     </main>
+    <section class="profissionais">
+        <hgroup>
+            <h1 class="titulo__principal center">Nossos Profissionais</h1>
+            <h3 class="texto justificado">Você merece o sorriso mais radiante, e nós temos a equipe perfeita para tornar isso possível! Bem-vindo à nossa clínica odontológica, onde a saúde, o bem-estar e a beleza do seu sorriso são a nossa maior prioridade. Nossos dentistas altamente qualificados e experientes estão aqui para proporcionar um atendimento excepcional e personalizado, garantindo resultados de tirar o fôlego.</h3>
+        </hgroup>
+        <img src="assets/dentista.png" alt="" class="img__profissional">
+    </section>
+    <div class="carousel" data-flickity='{ "freeScroll": true }'>
+        <div class="carousel-cell">
+            <div class="carousel__card">
+                <img src="assets/neon.png" alt="" class="img__carrossel">
+                <h1>Kaian Novais</h1>
+                <p>Esse é o melhor consultório de Osasco-SP</p>
+                <img src="assets/5estrelas.png" alt="5 estrelas">
+
+            </div>
+        </div>
+        <div class="carousel-cell">
+            <div class="carousel__card">
+                <img src="assets/neon.png" alt="" class="img__carrossel">
+                <h1>Kaian Novais</h1>
+                <p>Esse é o melhor consultório de Osasco-SP</p>
+                <img src="assets/5estrelas.png" alt="5 estrelas">
+            </div>
+        </div>
+        <div class="carousel-cell">
+            <div class="carousel__card">
+                <img src="assets/neon.png" alt="" class="img__carrossel">
+                <h1>Kaian Novais</h1>
+                <p>Esse é o melhor consultório de Osasco-SP</p>
+                <img src="assets/5estrelas.png" alt="5 estrelas">
+            </div>
+        </div>
+        <div class="carousel-cell">
+            <div class="carousel__card">
+                <img src="assets/neon.png" alt="" class="img__carrossel">
+                <h1>Kaian Novais</h1>
+                <p>Esse é o melhor consultório de Osasco-SP</p>
+                <img src="assets/5estrelas.png" alt="5 estrelas">
+            </div>
+        </div>
+        <div class="carousel-cell">
+            <div class="carousel__card">
+                <img src="assets/neon.png" alt="" class="img__carrossel">
+                <h1>Kaian Novais</h1>
+                <p>Esse é o melhor consultório de Osasco-SP</p>
+                <img src="assets/5estrelas.png" alt="5 estrelas">
+            </div>
+        </div>
+    </div>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 </body>
 </html>
